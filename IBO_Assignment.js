@@ -42,9 +42,6 @@ Sample Output for the given listOfProducts will be :
 
 */
 
-
-
-
 const listOfProducts = [{
     productName: "TV",
     quantity: 10,
@@ -72,10 +69,6 @@ const listOfProducts = [{
   }
 ];
 
-
-
-
-
 // getUniqueProductCount function
 
 const getUniqueProductCount = (items) => {
@@ -92,8 +85,6 @@ const getUniqueProductCount = (items) => {
 }
 let productsCount = getUniqueProductCount(listOfProducts);
 console.log(productsCount);
-
-
 
 // getUniqueProducts Function
 
